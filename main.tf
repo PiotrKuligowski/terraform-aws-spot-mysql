@@ -1,3 +1,5 @@
+data "aws_region" "current" {}
+
 resource "random_password" "this" {
   length  = 8
   special = false
